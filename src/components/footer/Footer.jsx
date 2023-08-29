@@ -3,7 +3,7 @@ import Order from "../order/Order";
 
 const Footer = () => {
   const hour = new Date().getHours();
-  const openHour = 12;
+  const openHour = 11;
   const closeHour = 24;
 
   const isOpen = hour >= openHour && hour <= closeHour;
